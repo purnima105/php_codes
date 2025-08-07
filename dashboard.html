@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharmalyze Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    /* Navbar (Top) */
+    .navbar {
+      background-color: #ffffff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 10;
+    }
+
+    .navbar-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 35px;
+      margin-right: 10px;
+    }
+
+    .brand-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #3343f3;
+    }
+
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navbar-right a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .navbar-right a img {
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    /* Layout wrapper */
+    .layout {
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      background-color: #2c3e50;
+      height: calc(100vh - 60px); /* Subtract navbar height */
+      padding-top: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ecf0f1;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #34495e;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="https://via.placeholder.com/35" alt="Logo" class="logo">
+      <span class="brand-name">Pharmalyze</span>
+    </div>
+
+    <div class="navbar-right">
+      <a href="" title="Notifications">
+        <i class="fas fa-bell"></i>
+      </a>
+      <a href="" title="Profile">
+        <img src="" alt="Profile Picture">
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar + Content Layout -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="">Dashboard</a>
+      <a href="">Inventory</a>
+      <a href="">Reports</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <h2>Welcome to Pharmalyze</h2>
+      <p>This is your dashboard. Use the sidebar to navigate.</p>
+    </div>
+  </div>
+
+</body>
+</html>

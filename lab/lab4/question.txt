@@ -1,0 +1,17 @@
+Lab-4
+2082/03/30
+1)
+   a)Create two variable name and age,store the message hello name ram your age is age in message variable using concatination
+   b)how can we do string interpolation   
+   c)Print I'm learning PHP,using all print statements
+   d)print He said"I am feeling great".
+
+2)Here is a message variable.Do as follows $message="welcome to HDC".
+    a)Print how many characters are there
+    b)Print how many words are there
+    c)From what index HDC starts.
+    d)Using array function print welcome from $message.
+    e)print uppercase and lowercase from of $message
+    f)Replace HDC to Himalaya darshan college using array function
+3)WAP to convert string to array and array to string
+4)Using array function check whether"madam" is palindrome or not
